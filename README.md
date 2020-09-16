@@ -5,8 +5,10 @@ I wrote this script in order to convert my list of quotes (I call them
 aphora lol) to a Notion database (table). The input data is copy-pasted from a
 plaintext document I had with quotes from books of the form
 
-`QUOTE
-- AUTHOR, SOURCE`
+```
+QUOTE
+- AUTHOR, SOURCE
+```
 
 I copy-pasted this into a temporary Notion page (stored at `page`). The script
 returns a database with the quote, author, and source in their own columns.
